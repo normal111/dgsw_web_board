@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-03T05:25:36.445+0000",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'PUT' not supported",
+  "path": "/user/delete/1"
+}

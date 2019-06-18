@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-03T06:01:38.890+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Invalid bound statement (not found): kr.hs.dgsw.board_back.Domain.PostMapper.modify",
+  "path": "/post/update"
+}

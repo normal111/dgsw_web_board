@@ -1,0 +1,56 @@
+.board {
+  margin: 30px;
+  width: calc(100vw - 62px);
+}
+
+.board-list-item {
+  display: table;
+  border-bottom: 1px solid silver;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #efefef;
+  }
+
+  > div {
+    display: table-cell;
+    width: 100px;
+    padding: 5px 10px;
+
+    &:first-child {
+      width: 200px;
+    }
+  }
+}
+
+.board-view-item {
+
+  > div {
+    border-bottom: 1px solid silver;
+
+    .board-view-content {
+      min-height: 50vh;
+      border: 1px solid silver;
+    }
+  }
+}
+
+.board-add-item {
+  .board-add-item-header {
+    display: flex;
+    justify-content: space-between;
+
+    > div {
+      &:first-child { width: 50px; }
+      &:last-child {
+        width: calc(100% - 50px);
+        input { width: 100%; }
+      }
+    }
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 100px;
+  }
+}

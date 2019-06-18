@@ -1,0 +1,475 @@
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-04T105506.200.json
+
+###
+
+GET http://localhost:8080/post/getUserId/1
+Accept: application/json
+
+<> 2019-06-03T034611.200.json
+
+###
+
+GET http://localhost:8080/post/getUserId/1
+Accept: application/json
+
+<> 2019-06-03T034453.200.json
+
+###
+
+GET http://localhost:8080/post/getUserId/1
+Accept: application/json
+
+<> 2019-06-03T034038.500.json
+
+###
+
+GET http://localhost:8080/post/getUserId/1
+Accept: application/json
+
+<> 2019-06-03T033928.500.json
+
+###
+
+GET http://localhost:8080/post/get/1
+Accept: application/json
+
+<> 2019-06-03T033927.200.json
+
+###
+
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-03T033923.200.json
+
+###
+
+GET http://localhost:8080/post/getUserId/1
+Accept: application/json
+
+<> 2019-06-03T031221.500.json
+
+###
+
+GET http://localhost:8080/post/getUserId/1
+Accept: application/json
+
+<> 2019-06-03T030909.500.json
+
+###
+
+DELETE http://localhost:8080/post/delete/1
+Accept: application/json
+
+<> 2019-06-03T030854.200.json
+
+###
+
+DELETE http://localhost:8080/post/delete/1
+Accept: application/json
+
+<> 2019-06-03T030419.500.json
+
+###
+
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-03T030407.200.json
+
+###
+
+PUT http://localhost:8080/post/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "user_id": "1",
+  "title": "uuuuu",
+  "content": "uuuuuu"
+}
+
+<> 2019-06-03T030405.200.json
+
+###
+
+PUT http://localhost:8080/post/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "user_id": "1",
+  "title": "uuuuu",
+  "content": "uuuuuu"
+}
+
+<> 2019-06-03T030138.500.json
+
+###
+
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-03T030043.200.json
+
+###
+
+POST http://localhost:8080/post/insert
+Content-Type: application/json
+
+{
+  "user_id": "1",
+  "title": "test",
+  "content": "test"
+}
+
+<> 2019-06-03T030040.200.json
+
+###
+
+POST http://localhost:8080/post/insert
+Content-Type: application/json
+
+{
+  "user_id": "1",
+  "title": "test",
+  "content": "test"
+}
+
+<> 2019-06-03T025952.500.json
+
+###
+
+POST http://localhost:8080/post/insert
+Content-Type: application/json
+
+{
+  "user_id": "1",
+  "title": "test",
+  "content": "test"
+}
+
+<> 2019-06-03T025823.500.json
+
+###
+
+GET http://localhost:8080/post/get/1
+Accept: application/json
+
+<> 2019-06-03T025659.200.json
+
+###
+
+GET http://localhost:8080/post/get/1
+Accept: application/json
+
+<> 2019-06-03T025510.500.json
+
+###
+
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-03T025504.200.json
+
+###
+
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-03T025259.500.json
+
+###
+
+GET http://localhost:8080/post/getAll
+Accept: application/json
+
+<> 2019-06-03T024653.500.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-03T024513.200.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-03T024038.200.json
+
+###
+
+DELETE http://localhost:8080/user/delete/1
+Accept: application/json
+
+<> 2019-06-03T024034.200.json
+
+###
+
+DELETE http://localhost:8080/user/delete/1
+Accept: application/json
+
+<> 2019-06-03T022555.500.json
+
+###
+
+PUT http://localhost:8080/user/delete/1
+Accept: application/json
+
+<> 2019-06-03T022536.405.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-03T022423.200.json
+
+###
+
+PUT http://localhost:8080/user/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "account": "user000",
+  "password": "1234",
+  "username": "username 000",
+  "email": "user000@dgsw.hs.kr"
+}
+
+<> 2019-06-03T022420.200.json
+
+###
+
+PUT http://localhost:8080/user/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "account": "user000",
+  "password": "1234",
+  "username": "username 000",
+  "email": "user000@dgsw.hs.kr"
+}
+
+<> 2019-06-03T021005.500.json
+
+###
+
+PUT http://localhost:8080/user/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "account": "user000",
+  "password": "1234",
+  "username": "username 000",
+  "email": "user000@dgsw.hs.kr"
+}
+
+<> 2019-06-03T020945.500.json
+
+###
+
+PUT http://localhost:8080/user/update
+Content-Type: application/json
+
+{
+  "account": "user123",
+  "password": "1234",
+  "username": "username 000",
+  "email": "user000@dgsw.hs.kr"
+}
+
+<> 2019-06-03T020915.500.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-03T020833.200.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user123",
+  "password": "1234",
+  "username": "username 123",
+  "email": "user123@dgsw.hs.kr"
+}
+
+<> 2019-06-03T020827.200.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-03T020824.200.json
+
+###
+
+GET http://localhost:8080/user/get/1
+Accept: application/json
+
+<> 2019-06-03T020822.200.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user123",
+  "password": "1234",
+  "username": "username 123",
+  "email": "user123@dgsw.hs.kr"
+}
+
+<> 2019-06-03T020107.500.json
+
+###
+
+GET http://localhost:8080/user/get/1
+Accept: application/json
+
+<> 2019-06-03T020105.200.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-03T020102.200.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user123",
+  "password": "1234",
+  "username": "username 123",
+  "email": "user123@dgsw.hs.kr"
+}
+
+<> 2019-06-03T020036.500.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user123",
+  "password": "1234",
+  "username": "username 123",
+  "email": "user123@dgsw.hs.kr"
+}
+
+<> 2019-06-03T015729.500.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user123",
+  "password": "1234",
+  "username": "username 123",
+  "email": "user123@dgsw.hs.kr"
+}
+
+<> 2019-06-03T015339.500.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "password": "1234",
+  "username": "username 0",
+  "email": "user0@dgsw.hs.kr"
+}
+
+<> 2019-06-03T015319.500.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user0",
+  "password": "1234",
+  "username": "username 0",
+  "email": "user0@dgsw.hs.kr"
+}
+
+<> 2019-06-03T015136.500.json
+
+###
+
+GET http://localhost:8080/user/get/1
+Accept: application/json
+
+<> 2019-06-03T015132.200.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user0",
+  "password": "1234",
+  "username": "username 0",
+  "email": "user0@dgsw.hs.kr"
+}
+
+<> 2019-06-03T014511.500.json
+
+###
+
+POST http://localhost:8080/user/insert
+Content-Type: application/json
+
+{
+  "account": "user0",
+  "password": "1234",
+  "username": "username 0",
+  "email": "user0@dgsw.hs.kr"
+}
+
+<> 2019-06-03T014440.500.json
+
+###
+
+GET http://localhost:8080/user/get/2
+Accept: application/json
+
+<> 2019-06-03T014006.200.json
+
+###
+
+GET http://localhost:8080/user/get/2
+Accept: application/json
+
+<> 2019-06-03T013911.200.json
+
+###
+

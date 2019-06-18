@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-03T05:59:52.607+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'userId' in 'class kr.hs.dgsw.board_back.Domain.Post'",
+  "path": "/post/insert"
+}
